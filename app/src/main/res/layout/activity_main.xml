@@ -1,0 +1,116 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/new_game"
+        android:id="@+id/buttonStartGameId"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSoundId"
+            android:text="@string/sound"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/sound"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLevelId"
+            android:text="@string/level"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+             android:drawableLeft="@drawable/level"
+             tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonHighScoreId"
+            android:text="@string/high_score"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/high"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonHelpId"
+            android:text="@string/help"
+            android:textSize="20sp"
+             android:drawableLeft="@drawable/ic_baseline_live_help_24"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+             tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAboutId"
+            android:text="@string/about"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/about"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonShareId"
+            android:text="@string/share"
+            android:textSize="20sp"
+             android:drawableLeft="@drawable/share"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+             tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
